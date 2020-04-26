@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quiz.QuizFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="135dp"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="How Well Do You Know Your Cuisines?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/korean"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="KOREAN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/italian" />
+
+    <Button
+        android:id="@+id/japanese"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_red_light"
+        android:text="JAPANESE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/italian"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/colorFocusedHighlight"
+        android:text="ITALIAN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/japanese" />
+
+    <Button
+        android:id="@+id/french"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="FRENCH"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indian" />
+
+    <Button
+        android:id="@+id/indian"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_light"
+        android:text="INDIAN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/korean" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

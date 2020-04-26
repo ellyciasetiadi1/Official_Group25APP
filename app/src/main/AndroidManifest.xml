@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.official_group25app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.triviaquiz.Result"></activity>
+        <activity android:name=".ui.recipes.recipesAPI.Random_Korean" />
+        <activity android:name=".ui.recipes.recipesAPI.Random_Japanese" />
+        <activity android:name=".ui.recipes.recipesAPI.Random_Italian" />
+        <activity android:name=".ui.recipes.recipesAPI.Random_Indian" />
+        <activity android:name=".ui.recipes.recipesAPI.Random_French" />
+        <activity android:name=".ui.quiz.MainActivity" />
+        <activity android:name=".ui.quiz.ResultActivity" />
+        <activity android:name=".ui.triviaquiz.QuizActivity" />
+        <activity android:name=".ui.recipes.recipesAPI.Korean_3" />
+        <activity android:name=".ui.recipes.recipesAPI.Korean_2" />
+        <activity android:name=".ui.recipes.recipesAPI.Korean_1" />
+        <activity android:name=".ui.recipes.recipesAPI.Japanese_3" />
+        <activity android:name=".ui.recipes.recipesAPI.Japanese_2" />
+        <activity android:name=".ui.recipes.recipesAPI.Japanese_1" />
+        <activity android:name=".ui.recipes.recipesAPI.Italian_3" />
+        <activity android:name=".ui.recipes.recipesAPI.Italian_2" />
+        <activity android:name=".ui.recipes.recipesAPI.Italian_1" />
+        <activity android:name=".ui.recipes.recipesAPI.Indian_3" />
+        <activity android:name=".ui.recipes.recipesAPI.Indian_2" />
+        <activity android:name=".ui.recipes.recipesAPI.Indian_1" />
+        <activity android:name=".ui.recipes.recipesAPI.French_3" />
+        <activity android:name=".ui.recipes.recipesAPI.French_2" />
+        <activity android:name=".ui.recipes.recipesAPI.French_1" />
+        <activity android:name=".ui.recipes.cuisines.Indian" />
+        <activity android:name=".ui.recipes.cuisines.Korean" />
+        <activity android:name=".ui.recipes.cuisines.French" />
+        <activity android:name=".ui.recipes.cuisines.Italian" />
+        <activity android:name=".ui.recipes.cuisines.Japanese" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_recipes"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="Recipes" />
+
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Quiz" />
+
+    <item
+        android:id="@+id/navigation_triviaquiz"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Trivia Quiz" />
+
+    <item
+        android:id="@+id/navigation_random"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Random Fact" />
+
+</menu>
